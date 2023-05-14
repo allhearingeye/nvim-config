@@ -80,5 +80,11 @@ o.imsearch = 0
 o.clipboard = "unnamedplus"
 
 -- Шрифт для GUI
-vim.opt.guifont = { "Hack NF", ":h12" }
+-- vim.opt.guifont = { "Hack NF", ":h12" }
+
+-- Обновлять буфер при фокусе (нужно для отображения изменений в GUI, если файл был изменен в другом приложении)
+vim.cmd("autocmd FocusGained * checktime")
+
+-- Отключить свап-файл
+o.swapfile = false
 
