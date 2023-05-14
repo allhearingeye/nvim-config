@@ -6,7 +6,11 @@
 
 ```powershell
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+```
 
+Optional:
+
+```powershell
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 ```
 
@@ -34,8 +38,19 @@ nvim
 
 ```bash
 mv ~/.config/nvim ~/.config/nvim.bak
+```
+
+Optional:
+
+```bash
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
+```
+
+```bash
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
+```
+
+```bash
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
