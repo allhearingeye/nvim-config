@@ -14,7 +14,6 @@ require("mason-lspconfig").setup({
     "pyright",
     "jsonls",
     "marksman",
-    "ltex",
   },
 })
 
@@ -35,7 +34,6 @@ lspconfig.lua_ls.setup({})
 lspconfig.pyright.setup({})
 lspconfig.jsonls.setup({})
 lspconfig.marksman.setup({})
-lspconfig.ltex.setup({})
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions

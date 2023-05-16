@@ -14,7 +14,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 
   { "ellisonleao/gruvbox.nvim", lazy = false, priority = 1000 },
-  { "sainnhe/sonokai", lazy = false, priority = 1000 },
   { "folke/tokyonight.nvim", lazy = false, priority = 1000 },
   { "catppuccin/nvim", name = "catppuccin", lazy = false, priority = 1000 },
   { "EdenEast/nightfox.nvim", lazy = false, priority = 1000 },
@@ -29,7 +28,6 @@ require("lazy").setup({
     },
   },
 
-  { "Wansmer/langmapper.nvim", lazy = false, priority = 1, disable = true },
   { "nvim-treesitter/nvim-treesitter" },
 
   {

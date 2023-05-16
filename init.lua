@@ -7,7 +7,6 @@ require("core.colors")
 -- Plugins
 require("plugins.neo-tree")
 require("plugins.treesitter")
--- require("plugins.langmapper")
 require("plugins.lsp")
 require("plugins.cmp")
 require("plugins.telescope")
@@ -15,8 +14,4 @@ require("plugins.null-ls")
 require("plugins.lualine")
 require("plugins.comment")
 require("plugins.bufferline")
-require("plugins.ltex")
-
-
--- require("langmapper").automapping({ global = true, buffer = true })
 

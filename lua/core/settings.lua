@@ -41,8 +41,8 @@ o.expandtab = true
 o.list = true
 o.listchars = "trail:·,nbsp:◇,tab:→ ,extends:▸,precedes:◂"
 
--- Включить проверку правописания (не работает с o.spelllang)
-vim.opt.spelllang = {"ru_yo", "en"}
+-- Языки для проверки правописания (не работает с o.spelllang)
+vim.opt.spelllang = {"ru", "en_us"}
 
 -- При горизонтальном сплите помещать окно снизу
 o.splitbelow = true

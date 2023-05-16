@@ -22,3 +22,6 @@ map("n", "<s-Tab>", ":BufferLineCyclePrev<CR>")
 
 -- Смена раскладки
 map({"i", "c"}, "<C-l>", "<C-^>")
+
+-- Переключить проверку орфографии
+map("n", "<leader>s", ":set invspell<CR>")
